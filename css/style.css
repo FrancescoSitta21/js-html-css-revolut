@@ -45,7 +45,7 @@ ul li a {
   text-decoration: none;
   text-transform: capitalize;
   font-size: 20px;
-  color: grey;
+  color: #adb5bd;
   transition: color .2s ease-in-out;
 }
 
@@ -66,4 +66,23 @@ li a.applicazione:hover {
   border:1px solid #ff499e;
   background-color: white;
   color: #ff499e;
+}
+
+/* menu a tendina */
+.menuatendina {
+  display: none;
+  min-width: 185px;
+  position: absolute;
+  line-height: 50px;
+  top: 50px;
+  right: -70px;
+  box-shadow: 0px 0px 8px black;
+}
+
+.menuatendina li {
+  padding: 15px;
+}
+
+.attività {
+  display: inline-block;
 }
